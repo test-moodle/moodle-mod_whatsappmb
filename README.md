@@ -39,6 +39,16 @@ Here’s how the plugin looks inside Moodle:
 
 ---
 
+## 📌 Changelog (Version History)  
+
+### 🆕 Version 1.0.0 (Initial Release)  
+- First stable version of the **Moodle WhatsApp Module**.  
+- Features:  
+  - Add a personal WhatsApp contact with a predefined message.  
+  - Add a WhatsApp group invite link.  
+  - Easy integration with Moodle activities.
+
+---
 ## 🛠️ For Developers  
 
 Want to contribute?  

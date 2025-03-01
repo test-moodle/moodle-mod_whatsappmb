@@ -95,3 +95,18 @@ function whatsappmb_get_coursemodule_info($coursemodule) {
 
     return $info;
 }
+
+/**
+ * Indicates that the module supports backup and restore.
+ *
+ * @param string $feature The feature to check.
+ * @return bool|null True if the feature is supported, null otherwise.
+ */
+function whatsappmb_supports($feature) {
+    switch ($feature) {
+        case FEATURE_BACKUP_MOODLE2:
+            return true; // Indica que el plugin soporta backup/restore.
+        default:
+            return null; // Para otras características, devuelve null.
+    }
+}
