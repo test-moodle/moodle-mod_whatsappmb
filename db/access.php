@@ -1,19 +1,28 @@
 <?php
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle. If not, see <http://www.gnu.org/licenses/>.
+
 /**
  * Capabilities definition for the mod_whatsappmb module in Moodle.
  *
- * This file defines the different permissions that can be assigned to users
- * in the WhatsAppMB module. It specifies which roles can add, view, and 
- * interact with the module.
- *
  * @package   mod_whatsappmb
- * @author    Marcial Cahuaya | Marbot
- * @link      https://marbot.bo
- * @copyright 2025
+ * @copyright 2025 Marcial Cahuaya | Marbot
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die(); // Prevent direct script access.
+defined('MOODLE_INTERNAL') || die();
 
 /**
  * Defines the capabilities available for the mod_whatsappmb plugin.

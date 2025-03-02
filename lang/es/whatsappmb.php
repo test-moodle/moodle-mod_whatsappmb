@@ -1,11 +1,24 @@
 <?php
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle. If not, see <http://www.gnu.org/licenses/>.
+
 /**
  * Language strings for the WhatsApp by Marbot plugin.
  *
  * @package   mod_whatsappmb
- * @author    Marcial Cahuaya | Marbot
- * @link      https://marbot.bo
- * @copyright 2025
+ * @copyright 2025 Marcial Cahuaya | Marbot
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -21,14 +34,4 @@ $string['grouplink'] = 'Enlace de grupo';
 $string['whatsappmb:addinstance'] = 'Agregar una nueva instancia de WhatsApp';
 $string['whatsappmb:view'] = 'Ver WhatsApp';
 
-$string['privacy:metadata:whatsappmb'] = 'El plugin WhatsApp by Marbot almacena datos de configuración para enlaces de WhatsApp, como números de teléfono, enlaces de grupo y mensajes predefinidos.';
-$string['privacy:metadata:whatsappmb:course'] = 'El ID del curso donde se utiliza el plugin WhatsApp by Marbot.';
-$string['privacy:metadata:whatsappmb:name'] = 'El nombre del plugin WhatsApp by Marbot';
-$string['privacy:metadata:whatsappmb:intro'] = 'La descripción del plugin WhatsApp by Marbot';
-$string['privacy:metadata:whatsappmb:introformat'] = 'El formato de la descripción (por ejemplo, HTML, texto plano).';
-$string['privacy:metadata:whatsappmb:linktype'] = 'El tipo de enlace de WhatsApp (personal o grupal).';
-$string['privacy:metadata:whatsappmb:whatsappnumber'] = 'El número de teléfono de WhatsApp configurado para la actividad.';
-$string['privacy:metadata:whatsappmb:message'] = 'El mensaje predefinido configurado para la actividad.';
-$string['privacy:metadata:whatsappmb:grouplink'] = 'El enlace de grupo de WhatsApp configurado para la actividad.';
-$string['privacy:metadata:whatsappmb:timecreated'] = 'La fecha y hora en que se creó la actividad.';
-$string['privacy:metadata:whatsappmb:timemodified'] = 'La fecha y hora en que la actividad fue modificada por última vez.';
+$string['privacy:metadata:none'] = 'Este complemento no almacena información personal.';
